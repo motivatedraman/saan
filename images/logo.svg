@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 80" fill="none" role="img" aria-label="Society of Access Alumni Nepal Logo">
+  <defs>
+    <linearGradient id="saanGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1565C0" />
+      <stop offset="100%" stop-color="#102A43" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Emblem Mark -->
+  <g transform="translate(10, 8)">
+    <!-- Base shield / mountain badge -->
+    <path d="M32 4 L56 16 L56 42 C56 56 32 64 32 64 C32 64 8 56 8 42 L8 16 Z" fill="url(#saanGrad)" />
+    
+    <!-- Stylized Himalayan Peak -->
+    <path d="M32 16 L44 34 L36 34 L42 44 L22 44 L28 34 L20 34 Z" fill="#FFFFFF" opacity="0.95" />
+    
+    <!-- Red Accent Sun/Star (Nepali flag motif) -->
+    <circle cx="32" cy="18" r="4" fill="#D62828" />
+    
+    <!-- Connection Dots & Nodes -->
+    <circle cx="16" cy="46" r="3" fill="#2E7D5B" />
+    <circle cx="48" cy="46" r="3" fill="#2E7D5B" />
+    <circle cx="32" cy="54" r="3.5" fill="#D62828" />
+    <path d="M16 46 L32 54 L48 46" stroke="#FFFFFF" stroke-width="1.5" stroke-linecap="round" />
+  </g>
+
+  <!-- Typography -->
+  <text x="82" y="38" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="28" font-weight="800" fill="#102A43" letter-spacing="1">SAAN</text>
+  <circle cx="164" cy="30" r="3.5" fill="#D62828" />
+  <text x="82" y="55" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="11.5" font-weight="600" fill="#486581" letter-spacing="0.2">SOCIETY OF ACCESS ALUMNI NEPAL</text>
+</svg>
